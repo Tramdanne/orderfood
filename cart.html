@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> YUMMY  NGON NGON </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header onload="loadslsp()">
+    <div class="inner-header container">
+        <nav>
+            <div class="main-menu">
+                <ul class="ul1">
+                    <li><a href="index.html"> TRANG CHỦ </a></li>
+                    <li>
+                        <a href="monanvat.html"> MÓN ĂN VẶT </a>
+                    </li>
+                    <li>
+                        <a href="doantrua.html"> ĐỒ ĂN TRƯA </a>
+                    </li>
+                    <li>
+                        <a href="nuocgiaikhat.html"> NƯỚC GIẢI KHÁT </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login">
+                <a  href="dangnhap.html">Đăng nhập</a>
+                <a  href="dangky.html">Đăng ký</a>
+            </div>
+            <div class="icon padd20">
+                <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:30px">:</i><span id="slsp"></span></a>
+            </div>
+        </nav>
+    </div>
+</header>
+<body onload="showcart()">
+    <div class="boxcenter">
+        <section class="row">
+            <h1>Giỏ Hàng</h1>
+                <div class="container"></div>
+                    <div class="cart-left">
+                        <table>
+                            <tr>
+                                <th>Hình</th>
+                                <th>Tên Sản Phẩm</th>
+                                <th>Giá</th>
+                                <th>Số Lượng</th>
+                                <th>Thành Tiền</th>
+                                <th>Xóa</th>
+                            </tr>
+                            <tbody id="thongtingiohang"></tbody>
+                            </tbody>                            
+                        </table>
+                        <br>
+                        <button onclick="delcart()">Xóa tất cả</button>
+                        <br>
+                        <button onclick=""> Đặt hàng</button>
+                    </div>
+        </section>
+    </div>
+       
+    
+    <footer>
+    </footer>
+    <script> 
+        var arrhinh=["banner1.webp","banner2.webp","banner3.webp","banner4.webp"]
+        setInterval(loadimg,2700);
+        function loadimg(){
+            var i=document.getElementById("img").alt;
+            i++;
+            if(i==parseInt(arrhinh.length - 1)){
+                i=0;
+            }
+            document.getElementById("img").src="img/"+arrhinh[i];
+            document.getElementById("img").alt=i;
+        }
+    </script>
+    <script src="cart.js"></script>
+
+</body>
+
+</html>

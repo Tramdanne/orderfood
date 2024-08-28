@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tối ưu kích thước của container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.padd20 {
+    padding: 15px 0;
+}
+
+/* Tối ưu button */
+button {
+    background-color: #1c60de;
+    color: white;
+    font-size: 13pt;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(11, 23, 126);
+    color: white;
+}
+
+/* Thiết lập wrapper và a link */
+.warpper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #fff;
+    transition: all 0.5s;
+    width: 100%;
+    background-color: rgb(83, 140, 219);
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.main-menu ul a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.main-menu ul li a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.login a {
+    background-color: #1c60de;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 999px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.login a:hover {
+    background-color: olive;
+    color: white;
+}
+
+/* Dropdown Menu */
+.main-menu>.ul1>li:hover>.ul2 {
+    display: block;
+}
+
+.main-menu .ul1 .ul2 {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(191, 194, 197);
+    box-shadow: 0 0 1 white;
+    text-align: center;
+}
+
+.main-menu .ul1 .ul2 a:hover {
+    color: black;
+}
+
+/* Form và input */
+#boxform {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: calc(100% - 20px);
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
