@@ -11,7 +11,7 @@ Xem bản demo của dự án tại đây: [OrderFood Demo](https://drive.google
 ## Tính năng giao diện
 - **Trang chủ**: Hiển thị danh sách các nhà hàng nổi bật và các món ăn phổ biến.
 
-![](asset/trangchu.jfif "Trang chủ")
+![](asset/image.png![](asset/monanvat.png "Đồ ăn vặt")
 
 - **Trang Môn Ăn Vặt**: Hiển thị thực đơn với các món ăn vặt.
 
