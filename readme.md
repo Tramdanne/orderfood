@@ -11,23 +11,24 @@ Xem bản demo của dự án tại đây: [OrderFood Demo](https://drive.google
 ## Tính năng giao diện
 - **Trang chủ**: Hiển thị danh sách các nhà hàng nổi bật và các món ăn phổ biến.
 
--<img src="asset/trangchu.jfif" alt="trang chủ" width="500">
+![](asset/trangchu.jfif "Trang chủ")
 
 - **Trang Môn Ăn Vặt**: Hiển thị thực đơn với các món ăn vặt.
 
--<img src="asset/monanvat.png" alt="món ăn vặt" width="500">
+![](asset/monanvat.png "Đồ ăn vặt")
 
 - **Trang Môn Ăn Trưa**: Hiển thị thực đơn với các món ăn trưa.
 
--<img src="asset/monantrua.png" alt="món ăn trưa" width="500">
+![](asset/monantrua.png "Đồ ăn trưa")
 
 - **Trang Nước Giải Khát**: Hiển thị thực đơn với các đồ giải khát.
 
--<img src="asset/nuocgiaikhat.png" alt="nước giải khát" width="500">
+![](asset/nuocgiaikhat.png "nước giải khát")
 
 - **Giỏ hàng**: Cho phép người dùng chỉnh sửa các món ăn trong giỏ hàng.
 
--<img src="asset/cart.png" alt="giỏ hàng" width="500">
+![](asset/cart.png "giỏ hàng")
+
 
 ## Công nghệ sử dụng
 
