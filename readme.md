@@ -45,5 +45,5 @@ Check out the demo of the project here: [OrderFood Demo](https://drive.google.co
 - `css/`: Directory containing CSS files for styling.
 - `cart.js`: JavaScript file to handle interactivity in the interface.
 
-## Đóng góp
-Nếu bạn có bất kỳ đề xuất hoặc cải tiến nào cho giao diện, vui lòng mở issue hoặc pull request để đóng góp cho dự án.
+## Contributions
+If you have any suggestions or improvements for the interface, please open an issue or submit a pull request to contribute to the project.
