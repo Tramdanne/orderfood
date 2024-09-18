@@ -9,22 +9,22 @@
 Check out the demo of the project here: [OrderFood Demo](https://drive.google.com/file/d/16wQJu4eDyiTIfCeFUMwPdZAmxJS7dVnr/view?usp=sharing)
 
 ## Interface Features
-- **Trang chủ**: Displays a list of featured restaurants and popular dishes.
-![](asset/image.png![](asset/monanvat.png "Đồ ăn vặt")
+- **HOME**: Displays a list of featured restaurants and popular dishes.
+![](asset/image.png![](asset/monanvat.png "SNACKS")
 
-- **Trang Môn Ăn Vặt**: Displays the menu with snack options.
-![](asset/monanvat.png "Đồ ăn vặt")
+- **SNACKS**: Displays the menu with snack options.
+![](asset/monanvat.png "SNACKS")
 
-- **Trang Môn Ăn Trưa**: HDisplays the menu with lunch options.
+- **LUNCH**: HDisplays the menu with lunch options.
 
-![](asset/monantrua.png "Đồ ăn trưa")
+![](asset/monantrua.png "LUNCH")
 
-- **Trang Nước Giải Khát**: Displays the menu with beverage options.
+- **BEVERAGE**: Displays the menu with beverage options.
 
-![](asset/nuocgiaikhat.png "nước giải khát")
+![](asset/nuocgiaikhat.png "BEVERGAE")
 
-- **Giỏ hàng**: Allows users to edit the items in their cart.
-![](asset/cart.png "giỏ hàng")
+- **CART**: Allows users to edit the items in their cart.
+![](asset/cart.png "CART")
 
 
 ## Technologies Used
@@ -36,12 +36,12 @@ Check out the demo of the project here: [OrderFood Demo](https://drive.google.co
 
 ## Project Structure
 - `index.html`: The homepage of the website.
-- `monanvat.html`: Page displaying the snack menu.
+- `snacks.html`: Page displaying the snack menu.
 - `cart.html`: The shopping cart page.
-- `nuocgiaikhat.html`: Page displaying the beverage menu.
-- `doantrua.html`: Page displaying the lunch menu.
-- `dangky.html`: User registration page.
-- `dangnhap.html`:  User login page.
+- `beverage.html`: Page displaying the beverage menu.
+- `lunch.html`: Page displaying the lunch menu.
+- `register.html`: User registration page.
+- `login.html`:  User login page.
 - `css/`: Directory containing CSS files for styling.
 - `cart.js`: JavaScript file to handle interactivity in the interface.
 
