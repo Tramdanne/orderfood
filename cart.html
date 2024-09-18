@@ -15,21 +15,21 @@
         <nav>
             <div class="main-menu">
                 <ul class="ul1">
-                    <li><a href="index.html"> TRANG CHỦ </a></li>
+                    <li><a href="index.html"> HOME </a></li>
                     <li>
-                        <a href="monanvat.html"> MÓN ĂN VẶT </a>
+                        <a href="snacks.html"> SNACKS </a>
                     </li>
                     <li>
-                        <a href="doantrua.html"> ĐỒ ĂN TRƯA </a>
+                        <a href="lunch.html"> LUNCH </a>
                     </li>
                     <li>
-                        <a href="nuocgiaikhat.html"> NƯỚC GIẢI KHÁT </a>
+                        <a href="beverage.html"> BEVERAGE </a>
                     </li>
                 </ul>
             </div>
             <div class="login">
-                <a  href="dangnhap.html">Đăng nhập</a>
-                <a  href="dangky.html">Đăng ký</a>
+                <a  href="login.html">LOGIN</a>
+                <a  href="register.html">REGISTER</a>
             </div>
             <div class="icon padd20">
                 <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:30px">:</i><span id="slsp"></span></a>
@@ -40,25 +40,25 @@
 <body onload="showcart()">
     <div class="boxcenter">
         <section class="row">
-            <h1>Giỏ Hàng</h1>
+            <h1>Shopping Cart</h1>
                 <div class="container"></div>
                     <div class="cart-left">
                         <table>
                             <tr>
-                                <th>Hình</th>
-                                <th>Tên Sản Phẩm</th>
-                                <th>Giá</th>
-                                <th>Số Lượng</th>
-                                <th>Thành Tiền</th>
-                                <th>Xóa</th>
+                                <th>Image</th>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>total amount of money</th>
+                                <th>Delete</th>
                             </tr>
                             <tbody id="thongtingiohang"></tbody>
                             </tbody>                            
                         </table>
                         <br>
-                        <button onclick="delcart()">Xóa tất cả</button>
+                        <button onclick="delcart()">Delete all.</button>
                         <br>
-                        <button onclick=""> Đặt hàng</button>
+                        <button onclick="">Place an order</button>
                     </div>
         </section>
     </div>

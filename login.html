@@ -11,21 +11,21 @@
         <nav>
             <div class="main-menu">
                 <ul class="ul1">
-                    <li><a href="index.html"> TRANG CHỦ </a></li>
+                    <li><a href="index.html"> HOME </a></li>
                     <li>
-                        <a href="monanvat.html"> MÓN ĂN VẶT </a>
+                        <a href="snacks.html"> SNACKS </a>
                     </li>
                     <li>
-                        <a href="doantrua.html"> ĐỒ ĂN TRƯA </a>
+                        <a href="lunch.html"> LUNCH </a>
                     </li>
                     <li>
-                        <a href="nuocgiaikhat.html"> NƯỚC GIẢI KHÁT </a>
+                        <a href="beverage.html"> BEVERAGE </a>
                     </li>
                 </ul>
             </div>
             <div class="login">
-                <a  href="dangnhap.html">Đăng nhập</a>
-                <a  href="dangky.html">Đăng ký</a>
+                <a  href="login.html">LOGIN</a>
+                <a  href="register.html">REGISTER</a>
             </div>
             <div class="icon padd20">
                 <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:30px">:</i><span id="slsp"></span></a>
@@ -39,10 +39,10 @@
 <body>
     <div class="container">
         <div id="boxform">
-            <h2>ĐĂNG NHẬP</h2>
-            <input type="text" name="" placeholder="Nhập tên đăng nhập" id="user"><br>
-            <input type="password" name="" placeholder="Nhập mật khẩu" id="pass"><br>
-            <button onclick="return checkform()">đăng nhập</button>
+            <h2>LOGIN</h2>
+            <input type="text" name="" placeholder="Enter username" id="user"><br>
+            <input type="password" name="" placeholder="Enter password" id="pass"><br>
+            <button onclick="return checkform()">login</button>
         </div>
         <div id="showkq">
             
@@ -54,29 +54,29 @@
             var pass = document.getElementById("pass");
             if(user.value !=""){
                 if(user.value.length < 8){
-                    alert("vui lòng nhập >8 ký tự");
+                    alert("please enter >8 characters");
                     user.focus();
                     return false;
                 }
             }else{
-                alert("vui lòng nhập tên đăng nhập");
+                alert("please enter your username");
                 user.focus();
                 return false;
             }
             if(pass.value !=""){
                 if(pass.value.length < 8){
-                    alert("vui lòng nhập mật khẩu >8 ký tự");
+                    alert("please enter a password >8 characters");
                     pass.focus();
                     return false;
                 }
             }else{
-                alert("vui lòng nhập mật khẩu");
+                alert("please enter the password");
                 pass.focus();
                 return false;
             }
-            var kq = `<h2>đăng nhập thành công</h2>
-            <p>tên đăng nhập:<span>`+user.value+`</span></p>
-            <p>mật khẩu:<span>`+pass.value+`</span></p>`
+            var kq = `<h2>Login successful</h2>
+            <p>User username:<span>`+user.value+`</span></p>
+            <p>User password:<span>`+pass.value+`</span></p>`
             document.getElementById('showkq').innerHTML = kq;
             return true;
         }
