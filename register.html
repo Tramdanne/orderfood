@@ -52,44 +52,54 @@
         function checkform() {
             var user = document.getElementById("user");
             var pass = document.getElementById("pass");
-            if(user.value !=""){
-                if(user.value.length < 8){
-                    alert("Please enter more than 8 characters.");
+            var pass2 = document.getElementById("pass2");  // Added pass2 retrieval
+    
+            // Validate Username
+            if (user.value != "") {
+                if (user.value.length < 8) {
+                    alert("Please enter more than 8 characters for the username.");
                     user.focus();
                     return false;
                 }
-            }else{
-                alert("Please enter your username");
+            } else {
+                alert("Please enter your username.");
                 user.focus();
                 return false;
             }
-            if(pass.value !=""){
-                if(pass.value.length < 8){
+    
+            // Validate Password
+            if (pass.value != "") {
+                if (pass.value.length < 8) {
                     alert("Please enter a password longer than 8 characters.");
                     pass.focus();
                     return false;
                 }
-            }else{
+            } else {
                 alert("Please enter the password.");
                 pass.focus();
                 return false;
             }
-            if(pass2.value !=""){
-                if(pass2.value == pass.value){
-                    alert("Please enter the correct password");
+    
+            // Validate Re-entered Password
+            if (pass2.value != "") {
+                if (pass2.value != pass.value) {  // Corrected condition for password matching
+                    alert("Passwords do not match. Please enter the correct password.");
                     pass2.focus();
                     return false;
                 }
-            }else{
-                alert("Please enter the password.");
+            } else {
+                alert("Please re-enter the password.");
                 pass2.focus();
                 return false;
             }
+    
+            // Display result
             var kq = `<h2>Registration successful</h2>
-            <p>Enter Account Name:<span>`+user.value+`</span></p>
-            <p>Enter Password:<span>`+pass.value+`</span></p>
-            <p>Re-enter password:<span>`+pass2.value+`</span></p>`
+            <p>Enter Account Name: <span>` + user.value + `</span></p>
+            <p>Enter Password: <span>` + pass.value + `</span></p>
+            <p>Re-enter password: <span>` + pass2.value + `</span></p>`;
             document.getElementById('showkq').innerHTML = kq;
+    
             return true;
         }
     </script>
